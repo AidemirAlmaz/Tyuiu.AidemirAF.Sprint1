@@ -6,8 +6,9 @@ namespace Tyuiu.AidemirAF.Sprint1.Task6.V7.Lib
     {
         public string DeleteLastLetter(string value)
         {
-            string res = value.Substring(0, value.Length - 1);
-            return res;
+            value = value.Remove(value.Length - 1);
+            value = value.Replace("т", "");
+            return value;
         }
     }
 }

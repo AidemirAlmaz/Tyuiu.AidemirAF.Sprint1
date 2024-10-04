@@ -8,10 +8,10 @@ namespace Tyuiu.AidemirAF.Sprint1.Task6.V7.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string strTest = "Hello";
+            string strTest = "Привет Мир";
             DataService ds = new DataService();
             string res = ds.DeleteLastLetter( strTest );
-            string wait = "Hell";
+            string wait = "Приве Ми";
             Assert.AreEqual(wait, res);
         }
     }
