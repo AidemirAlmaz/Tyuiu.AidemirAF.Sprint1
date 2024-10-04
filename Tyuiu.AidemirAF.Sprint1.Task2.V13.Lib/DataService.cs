@@ -6,7 +6,7 @@ namespace Tyuiu.AidemirAF.Sprint1.Task2.V13.Lib
     {
         public double ConvertMilesToKm(int value)
         {
-            double res = Math.Round(value * 1.61, 3);
+            double res = Math.Round(value * 1.609344, 3);
             return res;
         }
     }
